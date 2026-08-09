@@ -31,3 +31,11 @@ a[href$="/tags/执行计划"] {
   background: rgba(232, 160, 180, 0.15);
   color: var(--tertiary);
 }
+
+body {
+  background-color: #f2ead8;
+  background-image:
+    linear-gradient(rgba(180, 160, 120, 0.25) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(180, 160, 120, 0.25) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
