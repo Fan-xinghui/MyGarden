@@ -19,36 +19,36 @@ const config: QuartzConfig = {
     baseUrl: "fan-xinghui.github.io/MyGarden",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
-    theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
-      typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
-      },
-      colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+  theme: {
+  typography: {
+    header: "Noto Sans SC",
+    body: "Noto Sans SC",
+    code: "JetBrains Mono",
+  },
+
+  colors: {
+    lightMode: {
+      light: "#FFF9F5",
+      lightgray: "#F3EEE8",
+      gray: "#78909C",
+      darkgray: "#455A64",
+      dark: "#263238",
+      secondary: "#55B9E8",
+      tertiary: "#FFD97D",
+      highlight: "#FFEAF0",
+      textHighlight: "#FFF2A8",
+    },
+
+    darkMode: {
+      light: "#171B26",
+      lightgray:"#242A38",
+      gray:"#AAB4C0",
+      darkgray:"#CFD8DC",
+      dark:"#ECEFF4",
+      secondary:"#8ED8F8",
+      tertiary:"#FFE59A",
+      highlight:"#302936",
+      textHighlight:"#FFF2A8",
         },
       },
     },
