@@ -1,3 +1,238 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+// =============================
+// FanGarden Theme
+// Quartz v4 Custom Theme
+// =============================
+
+
+// ----------
+// Light Mode
+// ----------
+
+:root {
+
+  // 页面背景（纸张感）
+  --light: #FFF9F5;
+
+  // 主文字
+  --dark: #263238;
+
+  // 辅助文字
+  --gray: #78909C;
+
+  // 链接颜色
+  --secondary: #55B9E8;
+
+  // 高亮颜色
+  --tertiary: #FFD97D;
+
+  // 引用块
+  --highlight: #FFEAF0;
+
+  // 卡片背景
+  --lightgray: #F3EEE8;
+
+  // 边框
+  --lightgray-border: #E8DED5;
+
+}
+
+
+
+// ----------
+// Dark Mode
+// ----------
+
+[saved-theme="dark"] {
+
+  --light: #171B26;
+
+  --dark: #ECEFF4;
+
+  --gray: #AAB4C0;
+
+  --secondary:
+  #8ED8F8;
+
+  --tertiary:
+  #FFE59A;
+
+  --highlight:
+  #302936;
+
+  --lightgray:
+  #242A38;
+
+  --lightgray-border:
+  #374151;
+
+}
+
+
+
+// =============================
+// Global Style
+// =============================
+
+
+body {
+
+  background:
+  var(--light);
+
+  color:
+  var(--dark);
+
+}
+
+
+
+// =============================
+// Links
+// =============================
+
+
+a {
+
+  color:
+  var(--secondary);
+
+}
+
+
+a:hover {
+
+  color:
+  var(--tertiary);
+
+}
+
+
+
+// =============================
+// Headings
+// =============================
+
+
+h1,h2,h3,h4 {
+
+  color:
+  var(--dark);
+
+  font-weight:700;
+
+}
+
+
+
+// 一级标题增加花园感
+
+h1 {
+
+  letter-spacing:0.03em;
+
+}
+
+
+
+// =============================
+// Blockquote
+// =============================
+
+
+blockquote {
+
+  background:
+  var(--highlight);
+
+  border-left:
+  4px solid var(--secondary);
+
+  border-radius:
+  12px;
+
+  padding:
+  1rem 1.2rem;
+
+}
+
+
+
+// =============================
+// Cards
+// =============================
+
+
+.callout {
+
+  border-radius:
+  16px;
+
+}
+
+
+
+// =============================
+// Tags
+// =============================
+
+
+.tag {
+
+  background:
+  var(--highlight);
+
+  color:
+  var(--secondary);
+
+  border-radius:
+  999px;
+
+  padding:
+  4px 10px;
+
+}
+
+
+
+// =============================
+// Graph View
+// =============================
+
+
+.graph {
+
+  background:
+  var(--light);
+
+}
+
+
+
+// =============================
+// Code
+// =============================
+
+
+code {
+
+  border-radius:
+  8px;
+
+}
+
+
+
+// =============================
+// Footer
+// =============================
+
+
+footer {
+
+  opacity:
+  0.7;
+
+}
