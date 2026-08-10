@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.hasTag("体裁/书籍")
+    - '!file.inFolder("模板")'
+views:
+  - type: table
+    name: 表格
+    order:
+      - file.name
+      - 作者
+      - 领域
+      - 状态
+      - 评分
+      - 备注
+    sort:
+      - property: types
+        direction: DESC
+    columnSize:
+      file.name: 172
+      note.作者: 91
+      note.领域: 88
+      note.状态: 86
+      note.评分: 68
